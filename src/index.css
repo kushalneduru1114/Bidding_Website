@@ -1,0 +1,102 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto+Condensed:wght@300;400&display=swap');
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-bg {
+  background-color: #FFFFFF;
+} 
+
+.text-color {
+  color:#12123D;
+}
+
+.text-color1 {
+  color:green;
+}
+
+.border-color {
+  border-color: green;
+  border-radius: 30px;
+}
+
+.custom-bg-text {
+  color:#12123D;
+}
+
+.bg-color {
+  background-color: green;
+  
+}
+
+.rounded-card {
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.form-card {
+  padding: .5em .5em .2em;
+  border-radius: 1em;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card-title{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card:hover .product-card  {
+  transform: scale(1.02);
+}
+
+/* styles.css */
+
+.blue-bold-button {
+  background-color: green; /* Set the background color to blue */
+  color: white; /* Set the text color to white */
+  font-weight: bold; /* Make the text bold */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove the default button border */
+  border-radius: 10px; /* Add border-radius for a rounded look */
+  cursor: pointer; /* Add a pointer cursor on hover */  
+  font-family: 'Nova Square', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.blue-bold-button:hover {
+  color: black; /* Change the background color on hover */
+}
+
+.header-button{
+  color: black; /* Set the text color to white */
+  font-family: 'Roboto Condensed', sans-serif;
+  border: none; /* Remove the default button border */
+  border-radius: 10px; /* Add border-radius for a rounded look */
+  cursor: pointer; /* Add a pointer cursor on hover */ 
+
+}
+
+.header-button:hover{
+  font-weight: bold;
+}
+

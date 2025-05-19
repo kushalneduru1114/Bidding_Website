@@ -1,0 +1,20 @@
+/* ChatButton.css */
+
+  
+  .chat-button {
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .chat-button:hover {
+    background-color: #45a049;
+  }
+  
